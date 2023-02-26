@@ -1,0 +1,114 @@
+.card-titulo {
+  font-size: 36px;
+  font-weight: 500;
+  font-family: "Playfair Display", serif;
+}
+.card-nombre {
+  font-size: 26px;
+}
+.card-subtitulo {
+  font-size: 15px;
+}
+.card-titulo2 {
+  font-size: 26px;
+  font-weight: 500;
+}
+main {
+  background-color: #fbf6ef;
+}
+.nav-color,
+.footer-color {
+  background-color: #f4f6f4 !important;
+}
+.footer-color {
+  box-shadow: -1px -4px 11px 0px rgba(33, 37, 41, 0.075);
+}
+.card {
+  background-image: url(/assets/blob-scene-haikei3.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition-timing-function: linear;
+  transition-duration: 1s;
+}
+.lista-habilidades-item {
+  background-color: transparent !important;
+}
+.contacto,
+.lista {
+  background-color: transparent !important;
+}
+.big-icon-color {
+  color: #574d93;
+}
+.icon-color {
+  color: #31003d;
+}
+.dot-icon-color {
+  color: #be97c6;
+}
+.boton-estilo:hover {
+  color: black;
+  background-color: #dfdaff;
+  font-weight: 600;
+}
+.boton-estilo {
+  font-weight: 500;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.boton-color {
+  color: #ad7bb7;
+  border-color: #ad7bb7;
+  font-weight: 600;
+}
+.boton-color:hover {
+  color: white;
+  border-color: #ad7bb7;
+  background-color: #ad7bb7;
+}
+.boton-color:active {
+  background-color: #aab2ff !important;
+  border-color: #aab2ff !important;
+}
+.card-shadow {
+  box-shadow: 0px 0px 55px 21px rgba(196, 0, 245, 0.54) !important;
+}
+
+.big-icon-color-AAA {
+  color: #5800b8;
+}
+.icon-color-AAA {
+  color: #5800b8;
+}
+.dot-icon-color-AAA {
+  color: #d291ff;
+}
+.boton-estilo-AAA:hover {
+  color: black;
+  background-color: #d291ff;
+  font-weight: 600;
+}
+.boton-color-AAA {
+  color: #944dff;
+  border-color: #944dff;
+  font-weight: 600;
+}
+.boton-color-AAA:hover {
+  color: white;
+  border-color: #944dff;
+  background-color: #944dff;
+}
+.boton-color-AAA:active {
+  background-color: #944dff !important;
+  border-color: #944dff !important;
+}
+.card-AAA {
+  background-image: url(/assets/blob-scene-haikeiAAA.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition-timing-function: linear;
+  transition-duration: 1s;
+}

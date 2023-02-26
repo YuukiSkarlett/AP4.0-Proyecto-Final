@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Curriculum Vitae</title>
+  <link rel="icon" type="image/x-icon"
+    href="https://favicon-generator.org/favicon-generator/htdocs/favicons/2015-01-27/4d2ada1195295acfe652c32e7acbc017.ico">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/estilos.css">
+  <script src="https://kit.fontawesome.com/62803b0cdf.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary shadow-sm nav-color">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Curriculum Vitae</a>
+
+
+
+        <div class="collapse navbar-collapse flex-grow-1">
+          <ul class="navbar-nav mb-2 mb-lg-0 mx-auto">
+            <li class="nav-item mx-1 boton-estilo rounded-2">
+              <a class="nav-link active" aria-current="page" href="#" onclick="alumbrarCard(this.id)"
+                id="info">Información</a>
+            </li>
+            <li class="nav-item mx-1 boton-estilo rounded-2">
+              <a class="nav-link active" aria-current="page" href="#" onclick="alumbrarCard(this.id)" id="exp">Educación
+                y experiencia laboral</a>
+            </li>
+            <li class="nav-item mx-1 boton-estilo rounded-2">
+              <a class="nav-link active" aria-current="page" href="#" onclick="alumbrarCard(this.id)"
+                id="skills">Habilidades</a>
+            </li>
+          </ul>
+        </div>
+
+
+        <div class="collapse navbar-collapse justify-content-end flex-grow-0">
+          <ul class="navbar-nav mb-2 mb-lg-0 color">
+
+          </ul>
+          <div class="d-flex gap-3">
+            <button class="btn btn-outline-success boton-color"> <a class="nav-link active" href="index-ingles.html"> <i
+                  class="fa-solid fa-globe"></i>
+                English</a> </button>
+            <button class="btn btn-outline-success boton-color" onclick="cambiarColorAAA()"> <i
+                class="fa-solid fa-eye"></i>
+              Accesibilidad</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main class="py-4">
+    <div class="container text-center mx-auto">
+      <div class="row align-items-start">
+        <div class="col-4"> <!-- Card de información -->
+
+          <div class="card p-3 shadow-lg" id="card-info">
+            <div class="container text-center">
+              <div class="row align-items-center">
+                <div class="col-5">
+                  <img src="https://randomuser.me/api/portraits/women/17.jpg"
+                    class="card-img-top rounded-circle w-100 mt-2" alt="Imagen de una mujer">
+                </div>
+                <div class="col-7">
+                  <h1 class="card-title card-titulo">Información</h1>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-body">
+
+              <div class="text-start my-3">
+                <h2 class="card-title card-nombre">Kaylee Thomas</h2>
+                <h5 class="card-subtitle text-secondary card-subtitulo">Diseñadora UX/UI</h5>
+              </div>
+
+              <div class="my-3">
+                <h2 class="card-title mb-3 card-titulo2">Contacto</h2>
+                <ul class="list-group lista text-start">
+                  <li class="list-group-item contacto border-0"> <i
+                      class="fa-solid icon-color fa-mobile-screen-button"></i>
+                    Celular: (524) 627-5959</li>
+                  <li class="list-group-item contacto border-0"> <i class="fa-solid icon-color fa-at"></i> E-Mail: <a
+                      href="mailto:kaylee.thomas@example.com" class="card-link">kaylee.thomas@example.com</a></li>
+                  <li class="list-group-item contacto border-0 "> <i class="fa-brands icon-color fa-linkedin-in"></i>
+                    LinkedIn: <a target="_blank" href="https://www.linkedin.com/in/kaylee-thomas/"
+                      class="card-link">Kaylee
+                      Thomas</a> </li>
+                  <li class="list-group-item contacto border-0"> <i class="fa-solid icon-color fa-s fa-briefcase"></i>
+                    Portfolio:
+                    <a target="_blank" href="https://www.behance.net/kayleethomas" class="card-link">Behance</a>
+                  </li>
+                </ul>
+              </div>
+              <hr>
+              <div class="my-3">
+                <h2 class="card-title mb-3 card-titulo2">Sobre mi</h2>
+                <p class="card-text text-start card-parrafo">Soy Kaylee Thomas, una diseñadora UX/UI con experiencia en
+                  el diseño
+                  de
+                  aplicaciones
+                  móviles, sitios web y plataformas
+                  de comercio electrónico. Con un enfoque en la investigación y el análisis para comprender las
+                  necesidades
+                  de
+                  los
+                  usuarios, tengo habilidades para colaborar con equipos multidisciplinarios para crear soluciones
+                  intuitivas
+                  y
+                  accesibles. Estoy comprometida a seguir aprendiendo y mejorando en el campo del diseño de experiencia
+                  de
+                  usuario.
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col-4"> <!-- Card de Exp y Educación -->
+
+          <div class="card p-3 shadow-lg" id="card-exp">
+
+            <div class="container text-center"><!-- Header de la card -->
+              <div class="row justify-content-center align-items-center">
+                <div class="col-4">
+                  <i class="fa-solid big-icon-color fa-briefcase fa-3x"></i>
+                </div>
+                <div class="col-8">
+                  <h1 class="card-title card-titulo">Educación y experiencia laboral </h1>
+                </div>
+              </div>
+            </div>
+            <div class="card-body">
+
+              <div class="my-3">
+                <h2 class="card-title card-titulo2">Diseño UX/UI</h2>
+                <h6 class="card-subtitle mb-3 text-secondary card-subtitulo2">Escuela de Diseño de la
+                  Universidad de
+                  California</h6>
+                <p class="card-text text-start card-parrafo">A lo largo del curso adquirí conocimientos en investigación
+                  de
+                  usuarios,
+                  diseño
+                  de
+                  interacción, diseño visual y procesos de diseño.
+                  También tuve la oportunidad de trabajar en proyectos prácticos y colaborar con estudiantes de
+                  diferentes
+                  disciplinas.
+                </p>
+              </div>
+              <hr>
+              <div class="mt-3">
+                <h2 class="card-title  card-titulo2">Diseñadora UX/UI en XYZ</h2>
+                <h6 class="card-subtitle mb-3 text-secondary card-subtitulo2">Enero 2021-Enero 2023</h6>
+                <p class="card-text text-start card-parrafo">Mi rol consistía en liderar el diseño y la implementación
+                  de
+                  experiencias
+                  de
+                  usuario en
+                  sitios web y aplicaciones
+                  móviles. Trabajé estrechamente con el equipo de desarrollo y los líderes de producto para asegurar que
+                  los
+                  diseños
+                  cumplen con los objetivos de negocio y las necesidades del usuario. Lideré investigaciones de
+                  usuarios,
+                  diseño
+                  de
+                  interacción y diseño visual, y me encargué de optimizar la usabilidad de los productos existentes.
+                  Logré
+                  mejorar
+                  significativamente la satisfacción del usuario y el rendimiento de los productos de la empresa.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-4"><!-- Card habilidades -->
+          <div class="card p-3 shadow-lg" id="card-skills">
+
+            <div class="container text-center"> <!-- Header de la card -->
+              <div class="row justify-content-center align-items-center">
+                <div class="col-4">
+                  <i class="fa-solid fa-3x big-icon-color fa-lightbulb"></i>
+                </div>
+                <div class="col-8">
+                  <h1 class="card-title card-titulo">Habilidades</h1>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-body">
+
+              <div class="my-3">
+                <h2 class="card-title card-titulo2">Habilidades blandas</h2>
+                <ul class="list-group text-start lista-habilidades">
+                  <li class="list-group-item border-0 lista-habilidades-item"> <i
+                      class="fa-solid dot-icon-color fa-2xs me-2 fa-circle-dot"></i>Comunicación efectiva</li>
+                  <li class="list-group-item border-0 lista-habilidades-item"> <i
+                      class="fa-solid fa-2xs dot-icon-color me-2 fa-circle-dot"></i>Trabajo en equipo</li>
+                  <li class="list-group-item border-0 lista-habilidades-item"> <i
+                      class="fa-solid fa-2xs dot-icon-color me-2 fa-circle-dot"></i>Resolución de problemas</li>
+                  <li class="list-group-item border-0 lista-habilidades-item"> <i
+                      class="fa-solid fa-2xs dot-icon-color me-2 fa-circle-dot"></i>Creatividad</li>
+                  <li class="list-group-item border-0 lista-habilidades-item"> <i
+                      class="fa-solid fa-2xs dot-icon-color me-2 fa-circle-dot"></i>Habilidades de organización y
+                    gestión del
+                    tiempo</li>
+                  <li class="list-group-item border-0 lista-habilidades-item"> <i
+                      class="fa-solid fa-2xs dot-icon-color me-2 fa-circle-dot"></i>Habilidades de análisis</li>
+                </ul>
+              </div>
+              <hr>
+              <div class="my-3">
+                <h2 class="card-title card-titulo2">Habilidades tecnicas</h2>
+                <ul class="list-group text-start lista-habilidades">
+                  <li class="list-group-item border-0 lista-habilidades-item"> <i
+                      class="fa-solid fa-2xs dot-icon-color me-2 fa-circle-dot"></i>Inglés avanzado C2</li>
+                  <li class="list-group-item border-0 lista-habilidades-item"> <i
+                      class="fa-solid fa-2xs dot-icon-color me-2 fa-circle-dot"></i>Adobe Creative Suite</li>
+                  <li class="list-group-item border-0 lista-habilidades-item"> <i
+                      class="fa-solid fa-2xs dot-icon-color me-2 fa-circle-dot"></i>Sketch</li>
+                  <li class="list-group-item border-0 lista-habilidades-item"> <i
+                      class="fa-solid fa-2xs dot-icon-color me-2 fa-circle-dot"></i>Figma</li>
+                  <li class="list-group-item border-0 lista-habilidades-item"> <i
+                      class="fa-solid fa-2xs dot-icon-color me-2 fa-circle-dot"></i>Usabilidad y accesibilidad web</li>
+                  <li class="list-group-item border-0 lista-habilidades-item"> <i
+                      class="fa-solid fa-2xs dot-icon-color me-2 fa-circle-dot"></i>HTML</li>
+                  <li class="list-group-item border-0 lista-habilidades-item"> <i
+                      class="fa-solid fa-2xs dot-icon-color me-2 fa-circle-dot"></i>CSS</li>
+                  <li class="list-group-item border-0 lista-habilidades-item"> <i
+                      class="fa-solid fa-2xs dot-icon-color me-2 fa-circle-dot"></i>JavaScript</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="text-center text-lg-start bg-light text-muted footer-color">
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <div class="me-5 d-none d-lg-block">
+        <span>Celeste Daniela Godoy Sutti, Argentina Programa 4.0, 2023</span>
+      </div>
+      <div>
+        <a target="_blank" href="https://www.behance.net/celestegodoy2" class="me-4 text-reset">
+          <i class="fab fa-behance"></i>
+        </a>
+        <a target="_blank" href="https://www.linkedin.com/in/celeste-daniela-godoy-sutti/" class="me-4 text-reset">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a target="_blank" href="https://github.com/YuukiSkarlett" class="me-4 text-reset">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+    </section>
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <div class="row mt-3">
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">Celeste Daniela Godoy Sutti
+            </h6>
+            <p>
+              Hice este proyecto para Argentina Programa 4.0 teniendo en cuenta criterios de diseño que aprendí cursando
+              diseño UX/UI ademas de lo aprendido en el curso de desarrollo front-end. (Los links utilizados en el
+              CV son ficticios, están añadidos solo para demostración)
+            </p>
+          </div>
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">
+              Links
+            </h6>
+            <p>
+              <a href="https://www.figma.com/file/RyOHfenKQV32iMTg6rRwMc/Arg-Progama?node-id=0%3A1&t=HhnMZw4fA9EnPybU-1"
+                target="_blank" class="text-reset">Figma</a>
+            </p>
+            <p>
+              <a href="./docs/CV-Celeste Daniela Godoy Sutti-UX-UI-Designer.pdf" target="_blank"
+                class="text-reset">Curriculum Vitae</a>
+            </p>
+          </div>
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">Contacto</h6>
+            <p><i class="fas fa-home me-3"></i> Quilmes, Buenos Aires, Argentina</p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              godoycel99@gmail.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i>+54 9 2213519950</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </footer>
+  <!-- Footer -->
+  <script src="js/script.js"></script>
+</body>
+
+</html>
