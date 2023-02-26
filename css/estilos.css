@@ -24,7 +24,7 @@ main {
   box-shadow: -1px -4px 11px 0px rgba(33, 37, 41, 0.075);
 }
 .card {
-  background-image: url(/assets/blob-scene-haikei3.svg);
+  background-image: url(../assets/blob-scene-haikei3.svg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -105,7 +105,7 @@ body {
   border-color: #944dff !important;
 }
 .card-AAA {
-  background-image: url(/assets/blob-scene-haikeiAAA.svg);
+  background-image: url(../assets/blob-scene-haikeiAAA.svg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
